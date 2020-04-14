@@ -1,0 +1,107 @@
+.produto-bt {
+	width:100%;
+	border-radius: 3px;
+	padding:8px 0;
+	margin:10px 0;
+	text-align:center;
+	color:#fff;
+	font-weight:700;
+	font-size: 9pt;
+}
+.produto-comprar-bt{
+	background-color:#2c2aa8;
+	border-radius: 15px;
+}
+.buscar {
+	width:100%;
+	height:65px;
+	background-color:#2c2aa8;
+	padding-top:11px;
+	z-index:11;
+	border-radius:15px;
+	margin-bottom:0px;
+}
+#pacotes {
+	position:relative;
+	background-image: url(../imagens/img/shoping.jpg);
+	border-radius: 15px;
+}
+#pacotes h1 {
+	color: white;
+	width:100%;
+	font-size:28pt;
+	text-align:center;
+	font-weight:700;
+	padding-bottom: 30px;
+}
+#pacotes .produto-container {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#pacotes .produto {
+	width:100%;
+	max-width:300px;
+	padding-bottom:15px;
+	margin: 25px 0;
+	float:left;
+	border-radius: 2px;
+	background-color:#fff;
+	box-shadow: 0 0 5p#c9ced2;
+	border-radius: 15px;
+}
+/*responsavel pelo trasinho em baixo do pacotes*/
+#pacotes .detalhe-titulo{
+	width:100px;
+	height:5px;
+	margin: 0 auto 30px auto;
+	background-color: white;
+}
+#pacotes .produto:hover {
+	box-shadow: 0px 0px 10px #3425bd;
+	/*a primeira numeração movimenta para os lados, a segunda pra cima e pra baixo!*/
+	transform: translate(0px, -20px) !important;
+	border-radius: 15px;
+}
+#pacotes .produto-img {
+	width:100%;
+	height:250px;
+    border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	border-radius: 15px;
+}
+#pacotes .produto-info {
+	width:100%;
+	padding:15px;
+}
+#pacotes .produto-info .fa-map-marker{
+	margin-right:10px;
+}
+#pacotes .produto-info .fa-calendar{
+	margin-right:10px;
+}
+/*incone de preço*/
+#pacotes .produto-preco {
+	padding: 3px 20px;
+	background-color:#3425bd;
+	color: white;
+	font-size: 14pt;
+	text-align:center;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	letter-spacing: 1px;
+	position:absolute;
+	top: 25px;
+	right: -5px;
+	z-index:800;
+}
+#pacotes .produto-preco .parcelas {
+	display:block;
+	font-weight:400;
+	font-size: 0.6em;
+}
+
+
+
